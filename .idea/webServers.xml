@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5002aa21-1018-4e0a-ab56-a64e1e812b72" name="185.224.139.235" url="https://craftingdev.com">
+        <fileTransfer host="185.224.139.235" port="22" rootFolder="/var/www/craftingdev.com/newsapp" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

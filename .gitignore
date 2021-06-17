@@ -1,0 +1,4 @@
+# Project exclude paths
+/commentApp/
+/django-top-news-app/
+/venv/

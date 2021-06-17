@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple news app with Django 3 - Bootstrap 5 and News Api</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+<body>
+<div class="container-md">
+    <div class="m-5"><h1 class="text-center">Simple news app with Django 3 - Bootstrap 5 using News Api (newsapi.org)</h1></div>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+   {% for new, des, lin, i in mylist %}
+  <div class="col mx-auto">
+    <div class="card mt-3">
+      <img src="{{ i }}" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title">{{ new }}</h5>
+        <p class="card-text">{{ des }}</p>
+        <p class="card-link"><a href="{{ lin }}">Read more</a></p>
+      </div>
+    </div>
+  </div>
+   {% endfor %}
+</div>
+</div>
+
+</body>
+</html>
