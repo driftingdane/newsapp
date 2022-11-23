@@ -25,7 +25,7 @@ SECRET_KEY = 'w&&7ulveps9ethca75s$6pij3ep+6!!*-v^)-)@k$(%1d88n5v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["newsapp-2d5s.onrender.com"]
+ALLOWED_HOSTS = ['newsapp-2d5s.onrender.com']
 
 
 # Application definition
