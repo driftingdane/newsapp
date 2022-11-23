@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'w&&7ulveps9ethca75s$6pij3ep+6!!*-v^)-)@k$(%1d88n5v'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["newsapp-2d5s.onrender.com"]
 
 
 # Application definition
